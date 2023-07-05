@@ -1,4 +1,12 @@
 @keyframes colorTransition {0% {--nv-c-brand-light: hsl(0, 100%, 50%);--nv-c-brand-next: hsl(4.5, 100%, 50%);}1.25% {--nv-c-brand-light: hsl(4.5, 100%, 50%);--nv-c-brand-next: hsl(9, 100%, 50%);}2.5% {--nv-c-brand-light: hsl(9, 100%, 50%);--nv-c-brand-next: hsl(13.5, 100%, 50%);}3.75% {--nv-c-brand-light: hsl(13.5, 100%, 50%);--nv-c-brand-next: hsl(18, 100%, 50%);}5% {--nv-c-brand-light: hsl(18, 100%, 50%);--nv-c-brand-next: hsl(22.5, 100%, 50%);}6.25% {--nv-c-brand-light: hsl(22.5, 100%, 50%);--nv-c-brand-next: hsl(27, 100%, 50%);}7.5% {--nv-c-brand-light: hsl(27, 100%, 50%);--nv-c-brand-next: hsl(31.5, 100%, 50%);}8.75% {--nv-c-brand-light: hsl(31.5, 100%, 50%);--nv-c-brand-next: hsl(36, 100%, 50%);}10% {--nv-c-brand-light: hsl(36, 100%, 50%);--nv-c-brand-next: hsl(40.5, 100%, 50%);}11.25% {--nv-c-brand-light: hsl(40.5, 100%, 50%);--nv-c-brand-next: hsl(45, 100%, 50%);}12.5% {--nv-c-brand-light: hsl(45, 100%, 50%);--nv-c-brand-next: hsl(49.5, 100%, 50%);}13.75% {--nv-c-brand-light: hsl(49.5, 100%, 50%);--nv-c-brand-next: hsl(54, 100%, 50%);}15% {--nv-c-brand-light: hsl(54, 100%, 50%);--nv-c-brand-next: hsl(58.5, 100%, 50%);}16.25% {--nv-c-brand-light: hsl(58.5, 100%, 50%);--nv-c-brand-next: hsl(63, 100%, 50%);}17.5% {--nv-c-brand-light: hsl(63, 100%, 50%);--nv-c-brand-next: hsl(67.5, 100%, 50%);}18.75% {--nv-c-brand-light: hsl(67.5, 100%, 50%);--nv-c-brand-next: hsl(72, 100%, 50%);}20% {--nv-c-brand-light: hsl(72, 100%, 50%);--nv-c-brand-next: hsl(76.5, 100%, 50%);}21.25% {--nv-c-brand-light: hsl(76.5, 100%, 50%);--nv-c-brand-next: hsl(81, 100%, 50%);}22.5% {--nv-c-brand-light: hsl(81, 100%, 50%);--nv-c-brand-next: hsl(85.5, 100%, 50%);}23.75% {--nv-c-brand-light: hsl(85.5, 100%, 50%);--nv-c-brand-next: hsl(90, 100%, 50%);}25% {--nv-c-brand-light: hsl(90, 100%, 50%);--nv-c-brand-next: hsl(94.5, 100%, 50%);}26.25% {--nv-c-brand-light: hsl(94.5, 100%, 50%);--nv-c-brand-next: hsl(99, 100%, 50%);}27.5% {--nv-c-brand-light: hsl(99, 100%, 50%);--nv-c-brand-next: hsl(103.5, 100%, 50%);}28.75% {--nv-c-brand-light: hsl(103.5, 100%, 50%);--nv-c-brand-next: hsl(108, 100%, 50%);}30% {--nv-c-brand-light: hsl(108, 100%, 50%);--nv-c-brand-next: hsl(112.5, 100%, 50%);}31.25% {--nv-c-brand-light: hsl(112.5, 100%, 50%);--nv-c-brand-next: hsl(117, 100%, 50%);}32.5% {--nv-c-brand-light: hsl(117, 100%, 50%);--nv-c-brand-next: hsl(121.5, 100%, 50%);}33.75% {--nv-c-brand-light: hsl(121.5, 100%, 50%);--nv-c-brand-next: hsl(126, 100%, 50%);}35% {--nv-c-brand-light: hsl(126, 100%, 50%);--nv-c-brand-next: hsl(130.5, 100%, 50%);}36.25% {--nv-c-brand-light: hsl(130.5, 100%, 50%);--nv-c-brand-next: hsl(135, 100%, 50%);}37.5% {--nv-c-brand-light: hsl(135, 100%, 50%);--nv-c-brand-next: hsl(139.5, 100%, 50%);}38.75% {--nv-c-brand-light: hsl(139.5, 100%, 50%);--nv-c-brand-next: hsl(144, 100%, 50%);}40% {--nv-c-brand-light: hsl(144, 100%, 50%);--nv-c-brand-next: hsl(148.5, 100%, 50%);}41.25% {--nv-c-brand-light: hsl(148.5, 100%, 50%);--nv-c-brand-next: hsl(153, 100%, 50%);}42.5% {--nv-c-brand-light: hsl(153, 100%, 50%);--nv-c-brand-next: hsl(157.5, 100%, 50%);}43.75% {--nv-c-brand-light: hsl(157.5, 100%, 50%);--nv-c-brand-next: hsl(162, 100%, 50%);}45% {--nv-c-brand-light: hsl(162, 100%, 50%);--nv-c-brand-next: hsl(166.5, 100%, 50%);}46.25% {--nv-c-brand-light: hsl(166.5, 100%, 50%);--nv-c-brand-next: hsl(171, 100%, 50%);}47.5% {--nv-c-brand-light: hsl(171, 100%, 50%);--nv-c-brand-next: hsl(175.5, 100%, 50%);}48.75% {--nv-c-brand-light: hsl(175.5, 100%, 50%);--nv-c-brand-next: hsl(180, 100%, 50%);}50% {--nv-c-brand-light: hsl(180, 100%, 50%);--nv-c-brand-next: hsl(184.5, 100%, 50%);}51.25% {--nv-c-brand-light: hsl(184.5, 100%, 50%);--nv-c-brand-next: hsl(189, 100%, 50%);}52.5% {--nv-c-brand-light: hsl(189, 100%, 50%);--nv-c-brand-next: hsl(193.5, 100%, 50%);}53.75% {--nv-c-brand-light: hsl(193.5, 100%, 50%);--nv-c-brand-next: hsl(198, 100%, 50%);}55% {--nv-c-brand-light: hsl(198, 100%, 50%);--nv-c-brand-next: hsl(202.5, 100%, 50%);}56.25% {--nv-c-brand-light: hsl(202.5, 100%, 50%);--nv-c-brand-next: hsl(207, 100%, 50%);}57.5% {--nv-c-brand-light: hsl(207, 100%, 50%);--nv-c-brand-next: hsl(211.5, 100%, 50%);}58.75% {--nv-c-brand-light: hsl(211.5, 100%, 50%);--nv-c-brand-next: hsl(216, 100%, 50%);}60% {--nv-c-brand-light: hsl(216, 100%, 50%);--nv-c-brand-next: hsl(220.5, 100%, 50%);}61.25% {--nv-c-brand-light: hsl(220.5, 100%, 50%);--nv-c-brand-next: hsl(225, 100%, 50%);}62.5% {--nv-c-brand-light: hsl(225, 100%, 50%);--nv-c-brand-next: hsl(229.5, 100%, 50%);}63.75% {--nv-c-brand-light: hsl(229.5, 100%, 50%);--nv-c-brand-next: hsl(234, 100%, 50%);}65% {--nv-c-brand-light: hsl(234, 100%, 50%);--nv-c-brand-next: hsl(238.5, 100%, 50%);}66.25% {--nv-c-brand-light: hsl(238.5, 100%, 50%);--nv-c-brand-next: hsl(243, 100%, 50%);}67.5% {--nv-c-brand-light: hsl(243, 100%, 50%);--nv-c-brand-next: hsl(247.5, 100%, 50%);}68.75% {--nv-c-brand-light: hsl(247.5, 100%, 50%);--nv-c-brand-next: hsl(252, 100%, 50%);}70% {--nv-c-brand-light: hsl(252, 100%, 50%);--nv-c-brand-next: hsl(256.5, 100%, 50%);}71.25% {--nv-c-brand-light: hsl(256.5, 100%, 50%);--nv-c-brand-next: hsl(261, 100%, 50%);}72.5% {--nv-c-brand-light: hsl(261, 100%, 50%);--nv-c-brand-next: hsl(265.5, 100%, 50%);}73.75% {--nv-c-brand-light: hsl(265.5, 100%, 50%);--nv-c-brand-next: hsl(270, 100%, 50%);}75% {--nv-c-brand-light: hsl(270, 100%, 50%);--nv-c-brand-next: hsl(274.5, 100%, 50%);}76.25% {--nv-c-brand-light: hsl(274.5, 100%, 50%);--nv-c-brand-next: hsl(279, 100%, 50%);}77.5% {--nv-c-brand-light: hsl(279, 100%, 50%);--nv-c-brand-next: hsl(283.5, 100%, 50%);}78.75% {--nv-c-brand-light: hsl(283.5, 100%, 50%);--nv-c-brand-next: hsl(288, 100%, 50%);}80% {--nv-c-brand-light: hsl(288, 100%, 50%);--nv-c-brand-next: hsl(292.5, 100%, 50%);}81.25% {--nv-c-brand-light: hsl(292.5, 100%, 50%);--nv-c-brand-next: hsl(297, 100%, 50%);}82.5% {--nv-c-brand-light: hsl(297, 100%, 50%);--nv-c-brand-next: hsl(301.5, 100%, 50%);}83.75% {--nv-c-brand-light: hsl(301.5, 100%, 50%);--nv-c-brand-next: hsl(306, 100%, 50%);}85% {--nv-c-brand-light: hsl(306, 100%, 50%);--nv-c-brand-next: hsl(310.5, 100%, 50%);}86.25% {--nv-c-brand-light: hsl(310.5, 100%, 50%);--nv-c-brand-next: hsl(315, 100%, 50%);}87.5% {--nv-c-brand-light: hsl(315, 100%, 50%);--nv-c-brand-next: hsl(319.5, 100%, 50%);}88.75% {--nv-c-brand-light: hsl(319.5, 100%, 50%);--nv-c-brand-next: hsl(324, 100%, 50%);}90% {--nv-c-brand-light: hsl(324, 100%, 50%);--nv-c-brand-next: hsl(328.5, 100%, 50%);}91.25% {--nv-c-brand-light: hsl(328.5, 100%, 50%);--nv-c-brand-next: hsl(333, 100%, 50%);}92.5% {--nv-c-brand-light: hsl(333, 100%, 50%);--nv-c-brand-next: hsl(337.5, 100%, 50%);}93.75% {--nv-c-brand-light: hsl(337.5, 100%, 50%);--nv-c-brand-next: hsl(342, 100%, 50%);}95% {--nv-c-brand-light: hsl(342, 100%, 50%);--nv-c-brand-next: hsl(346.5, 100%, 50%);}96.25% {--nv-c-brand-light: hsl(346.5, 100%, 50%);--nv-c-brand-next: hsl(351, 100%, 50%);}97.5% {--nv-c-brand-light: hsl(351, 100%, 50%);--nv-c-brand-next: hsl(355.5, 100%, 50%);}98.75% {--nv-c-brand-light: hsl(355.5, 100%, 50%);--nv-c-brand-next: hsl(0, 100%, 50%);}100% {--nv-c-brand-light: hsl(0, 100%, 50%);--nv-c-brand-next: hsl(4.5, 100%, 50%);}}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
 
 :root {
   --color-black: var(--c-background) !important;
@@ -19,9 +27,9 @@
   --prose-code-block-backgroundColor: var(--c-muted) !important;
   --prose-code-block-border-color: var(--c-border) !important;
 
-  h1 {
+  /* h1 {
     color: rgb(var(--c-primary)) !important;
-  }
+  } */
 
   a:hover {
     color: var(--color-primary-500) !important;
@@ -32,7 +40,7 @@
 
   /* Home */
   .ellipsis {
-    transform: rotate(-395deg) !important;
+    animation: rotate 60s linear infinite;
     border-bottom-left-radius: 50% 25%;
     border-bottom-right-radius: 50% 25%;
     border-top-left-radius: 50% 25%;
@@ -53,10 +61,10 @@
   .button-link:hover {
     color: var(--c-background) !important;
   }
-
+/* 
   header {
     border-bottom: 0px !important
-  }
+  } */
 
   @media (min-width: 768px) {
     .container {
