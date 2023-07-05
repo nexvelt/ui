@@ -1,9 +1,23 @@
 <script setup lang="ts">
+import { useWindowScroll } from '@vueuse/core'
 
+const router = useRouter()
+const { y } = useWindowScroll()
+
+const headerClass = computed(() => {
+  const classValue = 'border-b-1 border-$c-muted bg-base'
+  if (router.currentRoute.value.path !== '/' || y.value > 0)
+    return classValue
+
+  return ''
+})
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 w-full backdrop-blur flex-none border-b border-$c-muted bg-white/5 dark:bg-gray-950/5">
+  <header
+    :class="headerClass"
+    class="sticky top-0 z-50 w-full backdrop-blur flex-none"
+  >
     <div class="container flex items-center justify-between mx-auto px-4 lg:px-6 py-1">
       <NVButton
         class="font-black px-0"

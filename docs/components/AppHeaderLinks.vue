@@ -15,8 +15,8 @@ const links: Link[] = [
     href: '/introduction/getting-started',
   },
   {
-    name: 'Merchandise',
-    href: 'https://github.com/nexvelt/ui',
+    name: 'Sponsor',
+    href: 'https://github.com/phojie/ui',
     target: '_blank',
   },
 ]
