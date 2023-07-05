@@ -12,8 +12,11 @@
   --color-black: var(--c-background) !important;
   --color-white: var(--c-foreground) !important;
 
+  --color-gray-900: var(--c-muted-foreground) !important;
+  --color-gray-800: var(--c-card-foreground) !important;
+
   --elements-backdrop-background: var(--c-background) !important;
-  --elements-border-primary-static: var(--c-muted) !important;
+  --elements-border-primary-static: var(--c-border) !important;
 
   --docus-body-backgroundColor: var(--c-background) !important;
 
@@ -61,6 +64,39 @@
   .button-link:hover {
     color: var(--c-background) !important;
   }
+
+  .card {
+    background-color: var(--c-muted) !important;
+    border: 1px solid var(--c-card) !important;
+  }
+
+  .terminal {
+    z-index: 10 !important;
+  }
+
+  .tabs-header {
+    background-color: var(--c-background) !important;
+    border-bottom: 1px solid var(--c-border) !important;
+  }
+
+  .code-group {
+    background-color: var(--c-muted) !important;
+    border: 1px solid var(--c-border) !important;
+  }
+
+  .tabs .active {
+    background-color: var(--c-muted) !important;
+    border: 1px 1px 0 0 solid var(--c-border) !important;
+    color: rgb(var(--c-primary)) !important;
+  }
+
+  code {
+    background-color: var(--c-muted) !important;
+    border: 1px solid var(--c-border) !important;
+    color: rgb(var(--c-primary)) !important;
+  }
+
+  .copy-
 /* 
   header {
     border-bottom: 0px !important

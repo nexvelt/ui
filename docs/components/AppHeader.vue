@@ -5,8 +5,8 @@ const router = useRouter()
 const { y } = useWindowScroll()
 
 const headerClass = computed(() => {
-  const classValue = 'border-b-1 border-$c-muted bg-base'
-  if (router.currentRoute.value.path !== '/' || y.value > 0)
+  const classValue = 'border-b border-$c-border bg-gray-white/50 dark:bg-gray-950/50'
+  if (router.currentRoute.value.path !== '/' || y.value > 10)
     return classValue
 
   return ''
@@ -18,7 +18,7 @@ const headerClass = computed(() => {
     :class="headerClass"
     class="sticky top-0 z-50 w-full backdrop-blur flex-none"
   >
-    <div class="container flex items-center justify-between mx-auto px-4 lg:px-6 py-1">
+    <div class="container flex items-center justify-between mx-auto px-4 lg:px-6">
       <NVButton
         class="font-black px-0"
         to="/"
