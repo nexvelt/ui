@@ -31,15 +31,6 @@
     "playground:preview": "nuxi preview playground"
   },
   "dependencies": {
-    "@nexvelt/ui-preset": "workspace:^",
-    "@nuxt/kit": "^3.6.1",
-    "@nuxtjs/color-mode": "^3.3.0",
-    "@vueuse/nuxt": "^10.2.1"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxt/module-builder": "^0.4.0",
-    "@nuxt/schema": "^3.6.1",
-    "nuxt": "^3.6.1"
+    "@nexvelt/ui-preset": "workspace:^"
   }
 }

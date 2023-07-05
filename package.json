@@ -52,7 +52,10 @@
     "prepare": "ignore-dependency-scripts \"esno scripts/prepare.ts\""
   },
   "dependencies": {
+    "@nuxt/kit": "^3.6.1",
+    "@nuxtjs/color-mode": "^3.3.0",
     "@unocss/nuxt": "^0.51.12",
+    "@vueuse/nuxt": "^10.2.1",
     "chroma-js": "^2.4.2",
     "ignore-dependency-scripts": "^1.0.1",
     "unocss": "^0.51.12"
@@ -63,6 +66,9 @@
     "@iconify-json/carbon": "^1.1.18",
     "@iconify-json/simple-icons": "^1.1.58",
     "@nexvelt/ui-preset": "workspace:^",
+    "@nuxt/devtools": "^0.6.6",
+    "@nuxt/module-builder": "^0.4.0",
+    "@nuxt/schema": "^3.6.1",
     "@types/chroma-js": "^2.4.0",
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^20.3.3",
@@ -73,6 +79,7 @@
     "esno": "^0.16.3",
     "fs-extra": "^11.1.1",
     "lint-staged": "^13.2.3",
+    "nuxt": "^3.6.1",
     "rimraf": "^5.0.1",
     "sass": "^1.63.6",
     "simple-git-hooks": "^2.8.1",
