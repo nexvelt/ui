@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docs:dev": "nuxi dev",
-    "docs:build": "nuxi build",
-    "docs:generate": "nuxi generate",
-    "docs:preview": "nuxi preview"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@nuxt-themes/docus": "^1.12.1",
+    "@nuxt-themes/docus": "^1.13.0",
     "@nuxtjs/plausible": "^0.2.1"
   }
 }
