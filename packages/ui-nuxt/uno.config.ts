@@ -1,6 +1,6 @@
 import {
   defineConfig,
-  // presetAttributify,
+  presetAttributify,
   presetIcons,
   presetTypography,
   presetUno,
@@ -12,7 +12,7 @@ import presetNexvelt from '../ui-preset/src/index'
 
 export default defineConfig({
   presets: [
-    // presetAttributify(),
+    presetAttributify(),
     presetUno(),
     presetTypography(),
     presetIcons({

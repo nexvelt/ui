@@ -2,6 +2,7 @@ import {
   defineConfig,
   presetAttributify,
   presetIcons,
+  presetTypography,
   presetUno,
   transformerDirectives,
   transformerVariantGroup,
@@ -30,6 +31,7 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
+    presetTypography(),
     presetIcons(),
     presetNexvelt(),
   ],
