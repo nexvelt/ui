@@ -12,44 +12,57 @@
   --color-primary-600: rgb(var(--c-primary)) !important;
   --color-primary-500: rgb(var(--c-primary-active)) !important;
 
-  --nv-gradient: linear-gradient(140.62deg, var(--nv-c-brand-light) 32.27%, var(--nv-c-brand-next) 30.88%, var(--color-primary-600) 1.48%) !important;
+  --nv-gradient: linear-gradient(140.62deg, var(--nv-c-brand-light) 0%, var(--nv-c-brand-next) 60.88%, var(--color-primary-600) 30.48%, var(--color-primary-500) 10.48%) !important;
 
   /* typography */
 
   --prose-code-block-backgroundColor: var(--c-muted) !important;
   --prose-code-block-border-color: var(--c-border) !important;
+
+  h1 {
+    color: rgb(var(--c-primary)) !important;
+  }
+
+  a:hover {
+    color: var(--color-primary-500) !important;
+  }
   
   -webkit-animation: colorTransition 25s linear infinite;
   animation: colorTransition 25s linear infinite;
-}
 
-/* Home */
-.ellipsis {
-  transform: rotate(-395deg) !important;
-  border-bottom-left-radius: 50% 25%;
-  border-bottom-right-radius: 50% 25%;
-  border-top-left-radius: 50% 25%;
-  border-top-right-radius: 50% 25%;
-}
+  /* Home */
+  .ellipsis {
+    transform: rotate(-395deg) !important;
+    border-bottom-left-radius: 50% 25%;
+    border-bottom-right-radius: 50% 25%;
+    border-top-left-radius: 50% 25%;
+    border-top-right-radius: 50% 25%;
+  }
 
-.ellipsis-item {
-  background: var(--nv-gradient) !important;
-}
+  .ellipsis-item {
+    background: var(--nv-gradient) !important;
+  }
 
-.button-link {
-  color: var(--c-background) !important;
-  border-radius: 25px !important;
-  padding: .4rem 2rem !important;
-  border: 1px solid var(--color-primary-500) !important;
-}
+  .button-link {
+    color: var(--c-background) !important;
+    border-radius: 25px !important;
+    padding: .4rem 2rem !important;
+    border: 1px solid var(--color-primary-500) !important;
+  }
 
-header {
-  border-bottom: 0px !important
-}
+  .button-link:hover {
+    color: var(--c-background) !important;
+  }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 75% !important;
+  header {
+    border-bottom: 0px !important
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 75% !important;
+    }
   }
 }
+
 

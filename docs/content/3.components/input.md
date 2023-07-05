@@ -3,6 +3,8 @@ github: true
 description: Display an input field.
 ---
 
+# Input 
+
 ## Usage
 
 Use a `v-model` to make the Input reactive.

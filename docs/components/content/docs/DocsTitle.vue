@@ -12,7 +12,7 @@
       </span>
     </span>
     <span class="text-6xl font-bold">
-      <span class="bg-clip-text text-transparent bg-gradient-to-r from-$nv-c-brand-light via-$color-primary-500 to-$color-primary-600">
+      <span class="bg-clip-text text-transparent bg-gradient-to-r from-$nv-c-brand-next to-$color-primary-600">
         NexveltUI
       </span>
     </span>

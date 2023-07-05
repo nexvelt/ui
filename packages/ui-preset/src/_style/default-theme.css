@@ -1,16 +1,16 @@
 :root {
-  --nv-primary-hex: #ca8a04;
-  --nv-primary-50: 254, 252, 232;
-  --nv-primary-100: 254, 249, 195;
-  --nv-primary-200: 254, 240, 138;
-  --nv-primary-300: 253, 224, 71;
-  --nv-primary-400: 250, 204, 21;
-  --nv-primary-500: 234, 179, 8;
-  --nv-primary-600: 202, 138, 4;
-  --nv-primary-700: 161, 98, 7;
-  --nv-primary-800: 133, 77, 14;
-  --nv-primary-900: 113, 63, 18;
-  --nv-primary-950: 66, 32, 6;
+  --nv-primary-hex: #65a30d;
+  --nv-primary-50: 247, 254, 231;
+  --nv-primary-100: 236, 252, 203;
+  --nv-primary-200: 217, 249, 157;
+  --nv-primary-300: 190, 242, 100;
+  --nv-primary-400: 163, 230, 53;
+  --nv-primary-500: 132, 204, 22;
+  --nv-primary-600: 101, 163, 13;
+  --nv-primary-700: 77, 124, 15;
+  --nv-primary-800: 63, 98, 18;
+  --nv-primary-900: 54, 83, 20;
+  --nv-primary-950: 26, 46, 5;
       
   --nv-gray-hex: #4b5563;
   --nv-gray-50: 249, 250, 251;
