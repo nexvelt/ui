@@ -3,10 +3,11 @@ title: Home
 navigation: false
 layout: page
 main:
-  fluid: false
+  fluid: true
+  contrainedClass: 'bg-green-500 text-white'
 ---
 
-:ellipsis{right=280px top=180px height=20% width=20% blur=150px}
+:ellipsis{right=200px top=150px height=20% width=20% blur=150px}
 
 ::block-hero
 ---
@@ -27,6 +28,7 @@ secondary:
   ::
 
 #support
+
 ::
 
 ::card-grid

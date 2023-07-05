@@ -1,7 +1,11 @@
 html {
   font-size: var(--font-size, 16px);
-  /* width: 100%;
-  width: 100vw; */
+  background-color: var(--c-background);
+  color: var(--c-foreground);
+}
+
+html.dark {
+  color-scheme: dark;
 }
 
 ::-moz-selection {
@@ -12,28 +16,6 @@ html {
   background: var(--c-bg-selection);
 }
 
-/* Force vertical scrollbar to be always visible to avoid layout shift while loading the content */
-body {
-  overflow-y: auto; /* scroll */
-  overflow-x: hidden;
-  -webkit-tap-highlight-color: transparent;
-}
-
-html,
-body,
-#__nuxt {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-html.dark {
-  color-scheme: dark;
-}
-
-html {
-  --at-apply: bg-base text-base;
-}
 
 /* remove ugly outline on focus */
 input:-webkit-autofill,

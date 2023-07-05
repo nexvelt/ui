@@ -36,7 +36,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     // transpile
     const runtimeDir = resolve('./runtime')
-    // nuxt.options.build.transpile.push(runtimeDir) // explain this line
+    // nuxt.options.build.transpile.push(runtimeDir) //
 
     // components
     addComponentsDir({
@@ -59,7 +59,7 @@ export default defineNuxtModule<ModuleOptions>({
     // modules
     await installModule('@unocss/nuxt', {
       preflight: false,
-      configFile: resolve(__dirname, '../unocss.config.ts'),
+      configFile: resolve(__dirname, './nexveltui.config.ts'),
     })
     await installModule('@nuxtjs/color-mode', { classSuffix: '' })
     await installModule('@vueuse/nuxt')

@@ -32,5 +32,8 @@
   },
   "dependencies": {
     "@nexvelt/ui-preset": "workspace:^"
+  },
+  "devDependencies": {
+    "nuxt": "^3.6.1"
   }
 }
