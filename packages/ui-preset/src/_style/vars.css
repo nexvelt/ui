@@ -11,8 +11,8 @@
   --c-card: var(--c-gray-100);
   --c-card-foreground: var(--c-gray-800);
 
-  --c-border: var(--c-gray-200);
-  --c-border-foreground: var(--c-gray-700);
+  --c-border: rgb(var(--nv-gray-200));
+  --c-border-foreground: rgb(var(--nv-gray-800));
 
   --c-ring: var(--c-gray-300);
   --c-ring-foreground: var(--c-gray-600);
@@ -40,6 +40,9 @@
 }
 
 .dark {
+  --c-border: rgb(var(--nv-gray-800));
+  --c-border-foreground: rgb(var(--nv-gray-200));
+
   /* config gray dark */
   --c-gray-0: rgb(var(--nv-gray-950));
   --c-gray-50: rgb(var(--nv-gray-900));
